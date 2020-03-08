@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Real Estate</title>
+     <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <style type="text/css">
+    </style>
+<link rel="stylesheet" type="text/css" href="RealEstate.css">
+</head>
+
+
+<body>
+      <!-- Menu Start -->
+     <div class="upper">
+     	  <div class="real">            <h1>  ESTATE DREAM </h1>
+       </div>
+          <ul>
+          	   <li> <a href="Real Estate.html"> Home</a></li>
+          	   <li> <a href="#abt"> About</a></li>
+          	   <li> <a href="#con"> Contact</a></li>
+          	   <li> <a href="#ser"> Services</a></li>
+          </ul>
+    </div> 	
+      <!-- Menu End -->
+
+
+      <!-- Slider Start--> 
+    <div class="wrapper">
+   <div class="slider">
+       <div class="slide">  <img src="25.jpeg"> </div>
+       <div class="slide">  <img src="22.jpeg"> </div>
+       <div class="slide">  <img src="23.jpg"> </div>
+       <div class="slide">  <img src="24.jpeg"> </div>
+   </div>
+   
+<div class="latest">
+     <h3> Latest   </h3>
+     <p> Salling Service  </p>
+     <p> Renting Service  </p>
+     <p> Public Service  </p>
+     <p> Property Service  </p>
+     <p> Private Service  </p>
+   </div>
+  <div class="bestway">
+   <h3> Best Way To Find Luxury Home   </h3>
+     <p> width over 60.507 active listings,  </p>
+  <p>  Realtyspace has the largest inventory of </p>
+  <p>apartments in the International States. </p>
+  </div>
+    </div>
+   
+ <script type="text/javascript">
+ 	
+    $(document).ready(function(e){
+
+      setInterval(ChangeSlider,3000);
+     var count=0;
+     var imageWidth=0;
+     function ChangeSlider()
+     {
+
+     count=count+1;
+     imageWidth=imageWidth+1300;
+    if(count==4)
+{
+   $(".slider").css("margin-left","0");
+count=0;
+imageWidth=0;
+}
+else
+{
+
+ $(".slider").animate({'margin-left':'-'+imageWidth},1000);
+
+}
+}
+});
+
+ </script>
+ <!-- Slider Ends --> 
+
+ <!-- About Start --> 
+   <div class="about" id="abt">
+    <div class="welcome left">
+   <h1>  Welcome To Real Estate</h1>
+   <span style="color: grey;text-decoration: underline;padding-left: 50px;font-size: 20px;font-style: italic;font-weight: bold;">  Coordinate with the overall look of your document</span>
+
+   <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. </p>
+     <button class="btn1"> <span> Read More </span></button>
+    </div>
+     <div class="pic left">
+   <img src="34.jpg">
+
+     </div>  
+   </div>
+ <!-- About Ends --> 
+
+ <!--  Services Starts-->
+
+    <div class="service" id="ser">
+     <h1> OUR SERVICES  </h1>
+       <div class="ourservice">
+     <div class="apart left">
+     <h3> Modern apartment on 5th floor with views of the Lake.  </h3>
+      <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. <br/> <br/>
+      <a href="#" style="font-size:28px;text-decoration:none;color:white;background-color:rgb(253,162,117);padding:12px 15px;border-radius:50px 50px;
+border-left:5px solid rgb(253,162,117);border-right:5px solid rgb(253,162,117);
+	"> More  </a>
+      
+      </p>
+       </div>
+     <div class="apartImage left"> 
+     <img src="33.jpg">
+         </div>
+     </div>
+
+       <div class="ourservice">
+     <div class="apartImage left"> 
+     <img src="30.png">
+         </div>
+     
+     <div class="apart left">
+     <h3> For sale beautiful apartment on Park Avenue.  </h3>
+      <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. 
+      <br/> <br/>
+      <a href="#" style="font-size:28px;text-decoration:none;color:white;background-color:rgb(253,162,117);padding:12px 15px;border-radius:50px 50px;
+border-left:5px solid rgb(253,162,117);border-right:5px solid rgb(253,162,117);
+	"> More  </a>
+
+      </p>
+       </div>
+     </div>
+       <div class="ourservice">
+     <div class="apart left">
+     <h3> Sale beautiful Studio in one of the best areas.  </h3>
+      <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. 
+      <br/> <br/>
+      <a href="#" style="font-size:28px;text-decoration:none;color:white;background-color:rgb(253,162,117);padding:12px 15px;border-radius:50px 50px;
+border-left:5px solid rgb(253,162,117);border-right:5px solid rgb(253,162,117);
+	"> More  </a>
+
+      </p>
+       </div>
+     <div class="apartImage left"> 
+     <img src="studio.jpg">
+         </div>
+     </div>
+    </div>
+  <!--  Services Ends-->
+   
+  <!-- People Say Starts--> 
+    <div class="people">
+      <h1> WHAT PEOPLE SAY  </h1>
+      <div class="circle">
+      <img src="133.jpeg">
+   </div>
+    <h2>  Lot Of Furniture Design </h2>
+    <div class="para">
+<p><span style="color: rgb(253,106,26);font-size: 50px">"</span>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. </p>
+      </div>
+
+    </div>
+
+  <!-- People Say Ends--> 
+
+<!-- Appointment Starts-->
+    <div class="appoint">
+   <h1>  Appointment Form </h1>
+   <div class="appointment">
+<div class="appointImg left">
+	   <img src="appoint.jpeg">
+</div>
+<div class="form left">
+    <span> FULL NAME :</span>
+   <input type="text" placeholder="Name" class="txt txtname">
+
+    <span> PHONE NUMBER :</span>
+   <input type="text" placeholder="Phone" class="txt txtnumber">
+
+    <span> PICK DATE :</span>
+   <input type="date" class="txt txtdate">
+
+   <span> TIME :</span>
+   <input type="time" class="txt txttime">
+   <button class="btn2">  TAKE APPOINTMENT </button>
+</div>
+</div>
+    </div>
+
+<!-- Appointment Ends--> 
+  
+<!-- Footer Start--> 
+
+   <div class="footer" id="con">
+  <h2> Contact Us  </h2>
+    <div class="location">
+      <img src="location2.png" style="width: 100px;height: 200px;">
+    </div>
+  <div class="contact">
+   <div class="email left">  
+    <img src="email2.png" style="width: 50px;height: 50px;">
+   <h3>  EMAIL</h3>
+   <p> mail@example.com  </p>
+   <p> mail@example.com  </p>
+ 
+     </div>
+   <div class="contactus left"> 
+   <img src="phone2.png" style="width: 50px;height: 50px;">
+   <h3>  CALL US  </h3>
+  <p> +92-000-000000  </p>
+  <p> +92-333-000000  </p>
+    </div>
+   <div class="address left">  <img src="house.png" style="width: 50px;height: 50px;">
+   <h3>  ADDRESS  </h3>
+   <p> D/456 ABC Avenue XYZ City  </p>
+   </div>
+
+  </div>
+
+   <div class="media">
+   	<div class="fbbox left">
+   <a href="https://www.facebook.com" class="fb"> f </a>
+     </div>
+     <div class="gplusbox left">
+   <a href="https://www.gmail.com" class="gplus"> g+ </a>
+       </div>
+      <div class="twittbox left">
+    <a href="https://www.twitter.com" class="twitt"> t </a>
+   </div>
+   </div>
+   </div>
+
+<div class="copyright">
+  <h2> Copyright(2018) | Estate Dream. All rights reserved  </h2>
+
+  </div>
+<!-- Footer Ends--> 
+
+   
+</body>
+</html>

@@ -1,0 +1,562 @@
+@charset "utf-8";
+/* CSS Document */
+    	    *
+    	    { margin: 0px;
+    	    padding: 0px;
+    	    box-sizing: border-box; }
+		   /* Menu Start */
+    	   .upper
+    	   {
+    	   	width: 100%;
+    	   	padding: 10px;
+    	   	margin-bottom: 25px;
+
+    	   }
+    	   .upper::after
+    	   { content: "";
+    	   display: block;
+    	   visibility: hidden;
+    	   clear: both; }
+          .real
+          { 
+          width: 500px;
+          position: relative;
+          top: 50px;}
+          .real h1
+          { font-size: 40px;
+          	text-align: center;
+          font-family: serif;
+           color: rgb(253,162,117);
+           }
+        .upper ul
+			{	 list-style:none;		
+			   float: right;
+			 margin-right: 30px;
+			}
+		.upper ul li
+			{
+			 float: left;
+			height: 50px;
+			width: 140px;			
+            text-align: center;
+            padding-top: 10px;
+			}
+		.upper ul li:hover
+	   {	
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-left:5px solid rgb(253,162,117);
+	border-right:5px solid rgb(253,162,117);
+	
+	}
+		.upper ul li a
+			{
+				    
+					text-decoration:none;
+					font-family:Verdana;
+					font-weight:bold;
+					color:rgb(174,191,199);
+					font-size:22px;	
+			}
+		.upper ul li a:hover
+           {
+           	
+		   	color: #666;
+			}
+           /* Menu Ends */
+
+    /* Slider Starts */
+     .latest
+     { 
+     width: 250px;
+     position: relative;
+     top: -370px;
+     left: 200px; 
+}
+     .latest h3
+     { color:rgb(253,162,117);
+     font-size: 27px;
+     font-family: verdana;
+     margin: 5px; }
+     .latest p
+     { font-size: 20px; 
+     	font-family: verdana;
+     	margin: 5px;
+     	color: white;}
+
+     .bestway
+     {      width: 500px;
+     position: relative;
+     top: -550px;
+     left: 500px; }
+     .bestway h3
+     { color: rgb(253,162,117);
+     font-size: 27px;
+     font-family: verdana;
+     margin: 5px;
+     margin-bottom: 15px; }
+     .bestway p
+     { font-size: 20px; 
+     	font-family: verdana;
+     	margin: 5px;
+     	color: white;}
+        .wrapper
+        { width: 1300px;
+        height: 600px;
+       margin-left: 25px;
+        overflow: hidden;
+        margin-bottom: 60px; }
+     .slider
+     { width: 5200px;
+     height: 600px;
+     position: relative;
+    }
+     .slide
+     { float: left;
+     width: 1300px;
+     height: 600px;
+      }
+    .slide img
+    { width: 1300px;
+    height: 600px; }
+	
+    /* Slider Ends */
+ 
+  /* About Start */
+    .about
+{
+ height:600px;
+ 
+  width:100%; 
+	}
+	.left
+	{float:left;}
+	.right
+	{float:right;}
+	.welcome
+	{ width:600px;
+	height:inherit;
+	
+ margin-left:120px;}
+  .welcome h1
+  {color:#333;
+  font-family:sans-serif;
+  font-size:33px;
+  padding-top:100px;
+  padding-bottom:30px;
+  padding-left:50px; 
+	  }
+	  .welcome p
+	  { margin-top:50px;
+	  padding-left:50px;
+	  font-size:20px;
+	  line-height:25px;
+	  color:grey;
+	  margin-bottom:50px;
+	  }
+	  .btn1
+	  {
+		 height:50px;
+		 width:200px; 
+		 margin-left:50px;
+		 outline:none;
+		 border:none;
+		 font-size:20px;
+		 border-radius:20px 20px;
+		 color:white;
+		 font-weight:bold;
+		 background-color:rgb(253,106,26); 
+		  transition: all 0.5s;}
+		  .btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-right: 25px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+		  .btn1:hover
+		  { background-color:rgb(253,162,117);
+		  cursor:pointer;}
+   .pic
+   { 
+   height:inherit;
+   width:500px;}
+   .pic img
+   { width:440px;
+   height:300px;
+   margin-left:20px;
+   margin-top:120px;}
+
+ /*  About Ends */
+
+ /* Services Starts */
+   .service
+   {
+	width:100%;
+	margin-bottom:70px;
+   }    
+  .service h1
+  { text-align:center;
+  font-size:35px;
+  font-family:Verdana;
+  margin-bottom:30px;
+  color:#333;}
+  .ourservice
+  { height:500px;
+  width:100%;
+   }
+  .apart
+  { height:500px;
+  width:50%;
+  
+  background-color:rgb(245,245,245);}
+  .apart h3
+  { font-family:Geneva;
+  font-size:37px;
+  padding-top:70px;
+  color:rgb(253,162,117);
+  padding-bottom:50px;
+  padding-left:40px;}
+  .apart p
+  { font-family:Geneva;
+  font-size:23px;
+  color:#666;
+  padding-left:40px;
+  }
+   .apartImage
+  { height:500px;
+  width:50%;
+
+ }
+  .apartImage img
+  { height:495px;
+  width:669px;
+ }
+ /* Services Ends */
+  
+ /* People Say Starts  */
+   .people
+   {
+   margin-bottom:40px;
+   width:100%;
+   background-image:url(35.jpg);
+   background-size:cover;}
+   .people h1
+   { text-align:center;
+   padding-top:50px;
+   color:white;
+   padding-bottom:50px;
+   font-size:35px;
+   font-family:Geneva;}
+    .circle
+	{ height:200px;
+   width:200px;
+   border-radius:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;}
+	.circle img
+   { height:200px;
+   width:200px;
+   border-radius:50%;
+   border:5px solid white;
+   }
+   .people h2
+   { text-align:center;
+   font-size:28px;
+   color:white;
+   font-family:Geneva;
+   margin-bottom:40px;}
+   .para
+   { 
+   margin-left:auto;
+   margin-right:auto;
+   height:200px;
+   width:700px;
+   margin-bottom:20px;}
+   .para p
+   { font-family:Geneva;
+   text-indent:100px;
+   font-size:24px;
+   color:white;
+   text-align:center;}
+ 
+ 
+ 
+ /* People Say Ends  */
+
+ /* Appointment Starts */
+ .appoint
+ { 
+ padding-left:60px;
+ margin-bottom:50px;
+ width:100%;}
+ .appoint h1
+ { text-align:center;
+ font-family:Geneva;
+ font-size:44px;
+ color:#333;
+ margin-bottom:40px;
+ }
+.appointment
+{ 
+width:95%;
+height:650px;
+padding:50px;
+background-color:rgb(44,44,44);}
+.appointImg
+{ 
+width:28%;
+height:inherit;
+margin-right:15px;}
+.appointImg img
+{ width:310px;
+height:550px;}
+.form
+{ 
+width:70%;
+height:inherit;
+padding:20px;
+padding-top:40px;}
+   .form span
+   { font-size:20px;
+    font-family:"Times New Roman";
+	color:rgb(155,76,35);}
+  .txt
+  { width:100%;
+  height:40px;
+  outline:none;
+  background-image:url(Template%20Images/user1.jpg);
+  background-size:20px 20px;
+  background-repeat:no-repeat;
+  background-position:4px center;
+  border:none;
+  padding-left:30px;
+  font-size:18px;
+  margin-top:20px;
+  margin-bottom:20px;}
+    .txtname
+  {background-image:url(Template%20Images/user1.jpg);
+  }
+    .txtnumber
+	{background-image:url(Template%20Images/icon24.png);
+  }
+    .txtdate
+  {background-image:url(Template%20Images/date2.png);
+  }
+    .txttime
+  {background-image:url(Template%20Images/time4.png);
+  }
+  
+  .form .btn2
+  {width:100%;
+  height:50px;
+  outline:none;
+  border:none;
+  background-color:rgb(251,106,25);
+  font-size:18px;
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:20px;
+   color:white;
+   }
+  .btn2:hover
+  { background-color:rgb(155,76,35);
+  cursor:pointer;}
+ /* Appointment Ends */
+ 
+ /* Footer Starts */
+    .footer
+	{	width:100%;
+	height:700px;}
+   .footer h2
+   { text-align:center;
+   color:#333;
+   font-size:50px;
+   font-family:"Times New Roman", Times, serif;
+   font-weight:bold;}
+   .location
+   { 
+   height:200px;
+   width:100px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:20px;
+  }
+  .contact::after
+  { clear:both;
+  visibility:hidden;
+  display:block;
+  content: " ";}
+   .contact
+   { 
+   width:920px;
+   text-align:center;
+   margin-top:30px;
+   margin-bottom:30px;
+   margin-left:auto;
+   margin-right:auto;}
+    .email
+	{ height:200px;
+	width:300px;
+	border-radius:50%;
+	border-left:5px solid rgb(253,162,117);
+	border-right:5px solid rgb(253,162,117);
+	
+     margin-right:5px;
+	 padding:10px;
+	}
+    .email h3
+	{ text-align:center;
+	color:#333;
+	font-size:33px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	margin-bottom:10px;}
+	.email p
+	{ text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#666;}
+	.contactus
+	{ height:200px;
+	width:300px;
+	 padding:10px;
+	margin-right:5px;
+		border-radius:50%;
+	border-left:5px solid rgb(253,162,117);
+	border-right:5px solid rgb(253,162,117);
+	
+	}
+       .contact h3
+	{ text-align:center;
+	color:#333;
+	font-size:33px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	margin-bottom:10px;}
+	.contact p
+	{ text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#666;}
+	.address
+	{ height:200px;
+	width:300px;
+	 padding:10px;
+	margin-right:5px;
+		border-radius:50%;
+	border-left:5px solid rgb(253,162,117);
+	border-right:5px solid rgb(253,162,117);
+	}
+    .address h3
+	{ text-align:center;
+	color:#333;
+	font-size:33px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	margin-bottom:10px;}
+	.address p
+	{ text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#666;}
+	.media
+	{ height:80px;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;}
+       .fbbox
+	   { height:80px;
+	   width:80px;
+	   border:1px solid #039;
+	  text-align:center;
+	  padding-top:5px;
+	  border-radius:50%; }
+	 
+	.fb
+	{ font-size:45px;
+	text-decoration:none;
+	color:#039;
+	border-radius:15px 15px;
+	font-weight:bold;
+	font-family:"Arial Black";} 
+	.fb:hover
+	{ color:white;}
+	.fbbox:hover
+	{
+	background-color:#039;}
+       .gplusbox
+	   { height:80px;
+	   width:80px;
+	   border:1px solid red;
+	  text-align:center;
+	  padding-top:5px;
+	  border-radius:50%; }
+	 
+	.gplus
+	{ font-size:45px;
+	text-decoration:none;
+	color:red;
+	border-radius:15px 15px;
+	font-weight:bold;
+	font-family:"Arial Black";} 
+	.gplus:hover
+	{ color:white;}
+	.gplusbox:hover
+	{
+	background-color:red;}
+       .twittbox
+	   { height:80px;
+	   width:80px;
+	   border:1px solid #09C;
+	  text-align:center;
+	  padding-top:5px;
+	  border-radius:50%; }
+	 
+	.twitt
+	{ font-size:45px;
+	text-decoration:none;
+	color:#09C;
+	border-radius:15px 15px;
+	font-weight:bold;
+	font-family:"Arial Black";} 
+	.twitt:hover
+	{ color:white;}
+	.twittbox:hover
+	{
+	background-color:#09C;}
+   
+	.copyright
+	{
+	width:100%;
+	background-color:rgb(253,162,117);
+	height:60px; 
+	padding-top:15px;}
+    .copyright h2
+	{ color:#666;
+	text-align:center;}
+ 
+ /* Footer Ends */
+ 
